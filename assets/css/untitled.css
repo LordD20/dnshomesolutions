@@ -1,0 +1,103 @@
+.btn-accent {
+  color: #fff;
+  background-color: #006EB6;
+  border-color: #006EB6;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #38B1FF;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: #006EB6;
+}
+
+.gradient {
+  background: linear-gradient(120deg, #737AFD, #0EA0FF);
+}
+
+#jump_header {
+  display: block;
+  top: -90px;
+  position: relative;
+}
+
+#jump_about {
+  display: block;
+  top: -90px;
+  position: relative;
+}
+
+#jump_services {
+  display: block;
+  top: -90px;
+  position: relative;
+}
+
+#jump_projects {
+  display: block;
+  top: -90px;
+  position: relative;
+}
+
+#jump_contact {
+  display: block;
+  top: -90px;
+  position: relative;
+}
+
+hr.clear {
+  clear: both;
+  border: 1px solid transparent;
+  height: 0px;
+}
+
+@media (max-width: 527px) {
+  #nav_links {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 527px) {
+  .nav_list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 527px) {
+  #nav_linkscon {
+    padding: 0px 5px 0px 0px;
+  }
+}
+
+@media (max-width: 527px) {
+  #nav_contacts {
+    flex-direction: column !important;
+    text-align: right;
+    padding: 0px 5px 0px 0px;
+  }
+}
+
+@media (max-width: 527px) {
+  #nav_email, #nav_phone {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 527px) {
+  #nav_social {
+    padding: 0px 5px 0px 0px;
+    justify-content: right;
+  }
+}
+
+@media (max-width: 527px) {
+  #nav_list_home {
+    border-top: 1px solid #ffffff;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
